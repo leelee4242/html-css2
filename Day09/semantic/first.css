@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Paperlogy-8ExtraBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.first {
+  height: 100vh;
+  background-image: url("images/main_sub.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  line-height: 1.2;
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+
+@media screen and (max-width:700px) {
+  .first > .contents > h2 {
+    font-size:40px;
+  }
+}

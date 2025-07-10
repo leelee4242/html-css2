@@ -1,0 +1,40 @@
+.second {
+  padding: 100px 0;
+}
+
+.second > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.second > .contents > h4 {
+  font-size: 32px;
+  text-align: center;
+  color: #757575;
+  font-weight: bold;
+  font-family: "Paperlogy-8ExtraBold";
+  line-height: 1.3;
+}
+
+.motto {
+  margin-top: 50px;
+}
+.motto > span {
+  color: black;
+}
+
+.first>.contents>.long{
+  border: none;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+  background-color: red;
+  margin-top: 900px;
+}
+
+@media screen and (max-width:760px) {
+  .second > .contents >h4 {
+    font-size: 20px;
+  }
+}
