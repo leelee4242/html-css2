@@ -1,0 +1,23 @@
+.second{
+padding: 200px 0;
+background-color: #f9fafb;
+}
+
+.second>.contents{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.second>.contents>h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px){
+    .second>.contents>h2{
+        font-size: 20px;
+    }   
+}
