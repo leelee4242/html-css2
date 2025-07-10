@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.photo {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.photo > img:hover {
+  transform: scale(1.1);
+}
+
+.photo > span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: #fee766;
+  color: white;
+  padding: 6px 10px 6px 10px;
+  border-radius: 14px;
+}
+.name {
+  font-size: 18px;
+  text-align: center;
+}

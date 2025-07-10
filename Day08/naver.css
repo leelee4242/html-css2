@@ -1,0 +1,38 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  width: fit-content;
+}
+.item {
+  width: 110px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.photo {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+  border: 1px solid #efefef;
+  overflow: hidden;
+}
+
+.photo > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: all 0.1s;
+}
+.photo > img:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  transition: all 0.5s;
+}
+.box:hover {
+  /* transform: rotate(45deg); */
+  /* transform: scale(3); */
+  /* transform: translate(100px, 100px); */
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+.minibox {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+.minibox:hover {
+  transform: scale(5);
+}
