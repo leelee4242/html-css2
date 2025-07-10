@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  left: 15px;
+  font-size: 20px;
+}
+.kakao {
+  background-color: #fee500;
+  color: black;
+}
+.phone {
+  background-color: black;
+  color: white;
+}
+.email {
+  background-color: white;
+  color: black;
+  border: 1px solid #efefef;
+}
